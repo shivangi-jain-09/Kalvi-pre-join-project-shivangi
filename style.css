@@ -1,0 +1,360 @@
+/* Importing font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* Body styling */
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/* Navbar starts */
+    #nav{
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        padding: 0 116px;
+        margin-bottom: 50px;
+    }
+
+    .logo{
+        margin-top: 28px;
+        margin-bottom: 10px;
+    }
+    .logo>img{
+        height: 90px;
+        width: 90px;
+    }
+
+    .nav-text{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .nav-text>a{
+        margin: 20px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+    .nav-text>a:hover{
+        background-color: #EC5242;
+        color:white;
+        border-radius: 5px;
+        font-weight: 700;
+    }
+
+    .nav-text>a>button{
+        width: 150px;
+        height: 50px;
+        background-color: #EC5242;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+/* Navbar ends */
+
+
+/* About section starts */
+    .bg-img{
+        height: 600px;
+        max-width: 1560px;
+        background-image: url(./images/about-bg-alt.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        background-repeat: no-repeat;
+        padding: 0vw;
+    }
+
+    .header-text{
+        color: white;
+        padding: 0 116px;
+    }
+
+    .deltaco{
+        font-size: 20px;
+        margin-bottom: -20px;
+    }
+
+    .header-text>h1{
+        font-size: 70px;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+
+    .details>p{
+        font-size: 15px;
+        font-weight: bold;
+    }
+/* About section ends */
+
+
+/* Artists section start */
+    #artists{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        /* padding: 0 116px; */
+        margin-top: 50px;
+    }
+
+    #artists>h2{
+        font-size: 60px;
+        color:#EC5242;
+        margin-bottom: -50px;
+    }
+
+    .artist-box{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100vw;
+        margin-bottom: -50px;
+    }
+
+    .artist-card{
+        max-width: 224px;
+        min-height: 323px;
+        align-items: flex-start;
+    }
+
+    .artist-card>h4{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .artist-card>h4:hover{
+        background-color: #EC5242;
+        color: white;
+        border-radius: 5px;
+        font-weight: bolder;
+        
+    }
+    .artist-card>img{
+        border-radius: 15px;
+    }
+
+    .artist-card>img:hover{
+        height: 225px;
+        width: 225px;
+        box-shadow: 10px 10px;
+    }
+
+    .red-tag-1{
+        position: relative;
+        height: 230px;
+        width: 230px;
+        background-color: #EC5242;
+        top: 180px;
+        left: -47px;
+        border-radius: 15px;
+        z-index: -1;
+    }
+/* Artists section ends */
+
+
+/* Schedule section starts */
+    #schedule{
+        padding-right: 238px;
+        padding-left: 161px;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .schedule-text>h1{
+        font-size: 60px;
+        color:#EC5242;
+    }
+
+    .day-text{
+        text-align: right;
+    }
+
+    .day-box{
+        height: 130px;
+        width: 240px;
+        background-color: #EC5242;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+    
+    .day-box>h3{
+        font-size: 25px;
+        color: white;
+        margin-bottom: -15px;
+    }
+
+    .day-text>hr{
+        width: 50px;
+        height: 2px;
+        background-color: black;
+    }
+/* Schedule section ends */
+
+
+/* Prices section starts */
+    #prices{
+        padding-right: 238px;
+        padding-left: 161px;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    #prices>h2{
+        font-size: 60px;
+        color:#EC5242;
+        margin-bottom: 50px;
+    }
+
+    .price-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .price-card{
+        background-color: #EC5242;
+        height: 400px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 15px;
+        margin: 50px;
+    }
+
+    .price-card:hover{
+        height: 475px;
+        width: 350px;
+        box-shadow: 10px 10px;
+    }
+
+    .price-card>h3{
+        font-size: 25px;
+        color: white;
+    }
+
+    .price-card>p{
+        font-size: 18px;
+    }
+
+    .price-card>hr{
+        width: 160px;
+        background-color: white;
+        height: 1px;
+    }
+/* Prices section ends */
+
+
+/* Tickets section starts */
+    #tickets{
+        padding-right: 238px;
+        padding-left: 161px;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .ticket-text>h1{
+        font-size: 60px;
+        color:#EC5242;
+    }
+
+    .container-form{
+        padding: 20px;
+
+    }
+
+    form{
+        display: grid;
+        grid-row-gap: 20px;
+    }
+
+    .form-field{
+        display: flex;
+        flex-direction: row;
+    }
+
+    form p{
+        font-weight: 600;
+    }
+
+    input,select{
+        pad: 10px 15px;
+    }
+
+    .submit{
+        background-color: #EC5242;
+        color: white;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 5px;
+        box-shadow: 7px 10px 12px rgb(0, 0, 0);
+    }
+
+    .submit:hover{
+        transform: scale(1.05);
+        box-shadow: 10px 12px 15px rgb(0, 0, 0) ;
+    }
+/* Tickets section ends */
+
+
+/* Footer starts */
+    #contact{
+        height: 250px;
+        width: 100%;
+        background-color: #EC5242;
+        margin-bottom: -45px;
+    }
+
+    .contact-left{
+        margin-left: 165px;
+    }
+
+    .contact-left>h2{
+        font-size: 60px;
+        color: white;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+    }
+
+    .contact-left>a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .social-media>img{
+        width: 20px;
+        margin: 5px;
+        margin-top: 10px;
+    }
+
+/* Footer ends */
